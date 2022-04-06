@@ -9,8 +9,12 @@
 </head>
 <body>
     <center>
+        <h1>🧝‍♀️Magix square🧝‍♀️</h1>
+        <div class="content">
+            <b>In a 3x3 grid, you have to put numbers from 1 to 9 in a manner so that respective row, column and diagonal add up to 15.</b>
+        </div>
         <div>
-     <table>
+     <table class="non-solution">
          <tr>
              <td><input class="box" id="box00" type="number"></td>
              <td><input class="box" id="box01" type="number"></td>
@@ -27,7 +31,25 @@
             <td><input class="box" id="box22" type="number"></td>
          </tr>
      </table>
+     <table class="solution">
+        <tr>
+            <td><input class="box" id="box00" type="number" value="4"></td>
+            <td><input class="box" id="box01" type="number" value="9"></td>
+            <td><input class="box" id="box02" type="number" value="2"></td>
+        </tr>
+        <tr>
+           <td><input class="box" id="box10" type="number" value="3"></td>
+           <td><input class="box" id="box11" type="number" value="5"></td>
+           <td><input class="box" id="box12" type="number" value="7"></td>
+        </tr>
+        <tr>
+           <td><input class="box" id="box20" type="number" value="8"></td>
+           <td><input class="box" id="box21" type="number" value="1"></td>
+           <td><input class="box" id="box22" type="number" value="6"></td>
+        </tr>
+    </table>
      </div>
+     <button class="content">CLICK TO SOLUTION</button>
     </center> 
     <script src="index.js"></script>
 </body>

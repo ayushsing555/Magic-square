@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 td{
     border: 3px solid blue;
 }
 table{
-    border: 3px solid red;
+    margin-left:620px;
 }
 input{
     height: 50px;
@@ -13,5 +15,28 @@ input{
     font-size: 20px;
 }
 div{
-    margin-top: 150px;
+    margin: 30px;
+}
+h1{
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.content{
+    font-size: 22px;
+    width: 300px;
+    padding: 20px;
+    font-family: 'Grape Nuts', cursive;
+    background-color: rgb(234, 192, 129);
+    border-radius: 30% 70% 35% 65% / 56% 30% 70% 44% ;
+}
+button{
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.solution{
+    display: none;
+}
+.non-solution{
+    display: block;
 }
